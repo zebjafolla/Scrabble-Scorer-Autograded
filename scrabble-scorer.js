@@ -36,11 +36,11 @@ function initialPrompt() {
    console.log("Let's play some scrabble! Enter a word:");
 };
 
-let simpleScore;
+let simpleScorer;
 
-let vowelBonusScore;
+let vowelBonusScorer;
 
-let scrabbleScore;
+let scrabbleScorer;
 
 const scoringAlgorithms = [];
 
