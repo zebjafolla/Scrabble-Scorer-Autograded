@@ -36,6 +36,8 @@ function initialPrompt() {
    console.log("Let's play some scrabble! Enter a word:");
 };
 
+let newPointStructure;
+
 let simpleScorer;
 
 let vowelBonusScorer;
@@ -47,8 +49,6 @@ const scoringAlgorithms = [];
 function scorerPrompt() {}
 
 function transform() {};
-
-let newPointStructure;
 
 function runProgram() {
    initialPrompt();
